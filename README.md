@@ -6,6 +6,8 @@ Unlike the “fat model” style where a small number of objects contain many, m
 
 In Rails, “model” refers to “a class that extends ActiveRecord::Base”
 
+A service object is responsible for implementing the user's interaction with the application. In the example of a rails app that allows users to subscribe to musical artists and receive updates about their upcoming events, the user's search for bands to follow is a good case for a service object.
+
 
 
 II. Why use Service Objects?
